@@ -1,10 +1,21 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.dream-area{
+    margin-bottom: 100px;
 }
 h1{
     font-size: 50px;
 }
-.name-high{
+.dream-area h2{
+    font-size: 40px;
+    color: cyan;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -15,4 +26,111 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.dream-area{
+
+    background-image: url("images/akm1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.dream-area .abc{
+    background-color:rgba(46,204,113 ,0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    width:20%;
+    font-size: 10px;
+    margin-left: 40% !important;
+}
+p{
+    overflow: hidden;
+	float:left;
+}
+.efg{
+    margin-bottom: 280px;
+}
+
+
+
+
+@media all and (max-width: 650px){
+    h1{
+        font-size: 12px;
+    }
+    .dream-area h2{
+        font-size: 10px;
+        color: cyan;
+    }
+    section{
+        height: 150px;
+        padding-bottom: 48px;
+    }
+    h3{
+        font-size: 8px;
+    }
+    p{
+        font-size: 7px;
+    }
+    .button-link{
+        font-size: 7px;
+        background-image: linear-gradient(45deg,lightsalmon,tomato);
+        color: white;
+        font-weight: 700;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+    .ndpic img{
+        width: 90%;
+    }
+    .efg{
+        margin-bottom: 45px;
+    }
+    .dream-area{
+        margin-bottom: 50px;
+    }
+    .single-experiance{
+        height: 110%;
+    }
+    .experiance-area h2{
+        font-size: 10px;
+    }
 }
